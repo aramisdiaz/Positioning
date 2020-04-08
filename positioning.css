@@ -1,0 +1,38 @@
+.box-set {
+
+}
+
+.text {
+    text-align: center;
+    margin: 20px;
+
+}
+
+.box {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    background: lightgrey;
+}
+.box-1 {
+    position:fixed;
+    top: -10px;
+    left: -20px;
+
+}
+.box-2 {
+    bottom: 10px;
+    left: 70px;
+    z-index: 3;
+    position: relative;
+}
+.box-3 {
+    top: 10px;
+    left: -20px;
+    z-index: -1;
+}
+.box-4 {
+    background: gray;
+    right: 300px
+    position: absolute;
+}
